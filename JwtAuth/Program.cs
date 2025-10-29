@@ -65,7 +65,7 @@ builder.Services.AddSwaggerGen();
 // Configuration Swagger avec JWT
 builder.Services.AddSwaggerGen(c =>
 {
-    c.SwaggerDoc("v1", new OpenApiInfo { Title = "JWT Auth API", Version = "v1" });
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "JWT Auth API ", Version = "v1" });
 
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
