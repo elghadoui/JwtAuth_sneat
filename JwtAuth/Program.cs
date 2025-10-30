@@ -97,7 +97,7 @@ builder.Services.AddCors(options =>
     options.AddPolicy("AllowReactApp", policy =>
     {
         policy.WithOrigins(
-                "http://192.168.5.133:3000",
+                "http://192.168.5.133:3000",// Vite par d�faut
                 "http://localhost:3000",      // Vite par d�faut
                 "http://localhost:5173",      // Vite alternatif
                 "https://localhost:3000",
